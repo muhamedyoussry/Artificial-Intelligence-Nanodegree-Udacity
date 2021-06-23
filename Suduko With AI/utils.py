@@ -33,3 +33,15 @@ def display(values):
         if r in 'CF':
             print(line)
     return
+
+
+def grid_values(grid):
+    values = []
+
+    for g in grid:
+        if g == '.':
+            values.append('123456789')
+        else:
+            values.append(g)
+    assert len(values) == 81, "Input grid must be a string of length 81 (9x9)"
+    return dict(zip(boxes, values))

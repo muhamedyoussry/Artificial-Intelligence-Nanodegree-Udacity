@@ -6,4 +6,7 @@
 
 ---
 
+&nbsp;
+
 > lesson 3. Solving Suduko With AI
+- **Strategy 1:** Elimination technique 
